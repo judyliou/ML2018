@@ -41,7 +41,7 @@ for i in range(len(test)):
 
 filename = sys.argv[3]
 text = open(filename, "w+")
-s = csv.writer(text,delimiter=',',lineterminator='\n')
+s = csv.writer(text, delimiter=',', lineterminator='\n')
 s.writerow(["ID","Ans"])
 for i in range(len(ans)):
     s.writerow(ans[i]) 
